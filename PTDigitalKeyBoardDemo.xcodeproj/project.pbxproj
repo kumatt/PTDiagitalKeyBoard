@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A1B95E2128014100C67FFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B95D2128014100C67FFD /* AppDelegate.m */; };
+		04A1B9612128014100C67FFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B9602128014100C67FFD /* ViewController.m */; };
+		04A1B9642128014100C67FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A1B9622128014100C67FFD /* Main.storyboard */; };
+		04A1B9662128014300C67FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A1B9652128014300C67FFD /* Assets.xcassets */; };
+		04A1B9692128014300C67FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A1B9672128014300C67FFD /* LaunchScreen.storyboard */; };
+		04A1B96C2128014300C67FFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B96B2128014300C67FFD /* main.m */; };
+		04A1B97C2128020F00C67FFD /* PublicDigitalKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B9732128015B00C67FFD /* PublicDigitalKeyBoardView.m */; };
+		04A1B97D2128021300C67FFD /* PublicDigitalKeyBoardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B97B2128016C00C67FFD /* PublicDigitalKeyBoardCell.m */; };
+		04A1B97E2128021500C67FFD /* PublicListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B9772128016C00C67FFD /* PublicListViewModel.m */; };
+		04A1B9872128130400C67FFD /* UIImage+ColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1B9862128130400C67FFD /* UIImage+ColorImage.m */; };
+		2FECCFB85522ED11B03C2791 /* libPods-PTDigitalKeyBoardDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B00F87CBCD054D47C638508C /* libPods-PTDigitalKeyBoardDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04A1B9592128014100C67FFD /* PTDigitalKeyBoardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTDigitalKeyBoardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A1B95C2128014100C67FFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04A1B95D2128014100C67FFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04A1B95F2128014100C67FFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04A1B9602128014100C67FFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04A1B9632128014100C67FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04A1B9652128014300C67FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A1B9682128014300C67FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04A1B96A2128014300C67FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A1B96B2128014300C67FFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A1B9732128015B00C67FFD /* PublicDigitalKeyBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicDigitalKeyBoardView.m; sourceTree = "<group>"; };
+		04A1B9742128015B00C67FFD /* PublicDigitalKeyBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicDigitalKeyBoardView.h; sourceTree = "<group>"; };
+		04A1B9762128016C00C67FFD /* PublicListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicListViewModel.h; sourceTree = "<group>"; };
+		04A1B9772128016C00C67FFD /* PublicListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicListViewModel.m; sourceTree = "<group>"; };
+		04A1B9782128016C00C67FFD /* PublicListViewModelDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicListViewModelDelegate.h; sourceTree = "<group>"; };
+		04A1B97A2128016C00C67FFD /* PublicDigitalKeyBoardCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicDigitalKeyBoardCell.h; sourceTree = "<group>"; };
+		04A1B97B2128016C00C67FFD /* PublicDigitalKeyBoardCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicDigitalKeyBoardCell.m; sourceTree = "<group>"; };
+		04A1B9852128130400C67FFD /* UIImage+ColorImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorImage.h"; sourceTree = "<group>"; };
+		04A1B9862128130400C67FFD /* UIImage+ColorImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorImage.m"; sourceTree = "<group>"; };
+		539F37920F9C2B200B4E79EF /* Pods-PTDigitalKeyBoardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTDigitalKeyBoardDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PTDigitalKeyBoardDemo/Pods-PTDigitalKeyBoardDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B00F87CBCD054D47C638508C /* libPods-PTDigitalKeyBoardDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PTDigitalKeyBoardDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EACCCB57FC50DECF9EA2FB /* Pods-PTDigitalKeyBoardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTDigitalKeyBoardDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PTDigitalKeyBoardDemo/Pods-PTDigitalKeyBoardDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A1B9562128014100C67FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FECCFB85522ED11B03C2791 /* libPods-PTDigitalKeyBoardDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A1B9502128014100C67FFD = {
+			isa = PBXGroup;
+			children = (
+				04A1B95B2128014100C67FFD /* PTDigitalKeyBoardDemo */,
+				04A1B95A2128014100C67FFD /* Products */,
+				462D5D5F5A968E867937D394 /* Pods */,
+				D867123A48749D1E0674F36F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04A1B95A2128014100C67FFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A1B9592128014100C67FFD /* PTDigitalKeyBoardDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A1B95B2128014100C67FFD /* PTDigitalKeyBoardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04A1B9722128014E00C67FFD /* PTDigitalKeyBoard */,
+				04A1B95C2128014100C67FFD /* AppDelegate.h */,
+				04A1B95D2128014100C67FFD /* AppDelegate.m */,
+				04A1B95F2128014100C67FFD /* ViewController.h */,
+				04A1B9602128014100C67FFD /* ViewController.m */,
+				04A1B9622128014100C67FFD /* Main.storyboard */,
+				04A1B9652128014300C67FFD /* Assets.xcassets */,
+				04A1B9672128014300C67FFD /* LaunchScreen.storyboard */,
+				04A1B96A2128014300C67FFD /* Info.plist */,
+				04A1B96B2128014300C67FFD /* main.m */,
+			);
+			path = PTDigitalKeyBoardDemo;
+			sourceTree = "<group>";
+		};
+		04A1B9722128014E00C67FFD /* PTDigitalKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				04A1B9742128015B00C67FFD /* PublicDigitalKeyBoardView.h */,
+				04A1B9732128015B00C67FFD /* PublicDigitalKeyBoardView.m */,
+				04A1B9802128128500C67FFD /* Category */,
+				04A1B9792128016C00C67FFD /* V */,
+				04A1B9752128016C00C67FFD /* VM */,
+			);
+			path = PTDigitalKeyBoard;
+			sourceTree = "<group>";
+		};
+		04A1B9752128016C00C67FFD /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				04A1B9762128016C00C67FFD /* PublicListViewModel.h */,
+				04A1B9772128016C00C67FFD /* PublicListViewModel.m */,
+				04A1B9782128016C00C67FFD /* PublicListViewModelDelegate.h */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		04A1B9792128016C00C67FFD /* V */ = {
+			isa = PBXGroup;
+			children = (
+				04A1B97A2128016C00C67FFD /* PublicDigitalKeyBoardCell.h */,
+				04A1B97B2128016C00C67FFD /* PublicDigitalKeyBoardCell.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		04A1B9802128128500C67FFD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				04A1B9852128130400C67FFD /* UIImage+ColorImage.h */,
+				04A1B9862128130400C67FFD /* UIImage+ColorImage.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		462D5D5F5A968E867937D394 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				539F37920F9C2B200B4E79EF /* Pods-PTDigitalKeyBoardDemo.debug.xcconfig */,
+				E9EACCCB57FC50DECF9EA2FB /* Pods-PTDigitalKeyBoardDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D867123A48749D1E0674F36F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B00F87CBCD054D47C638508C /* libPods-PTDigitalKeyBoardDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A1B9582128014100C67FFD /* PTDigitalKeyBoardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A1B96F2128014300C67FFD /* Build configuration list for PBXNativeTarget "PTDigitalKeyBoardDemo" */;
+			buildPhases = (
+				C86306D4EDBF62E8CCDF171C /* [CP] Check Pods Manifest.lock */,
+				04A1B9552128014100C67FFD /* Sources */,
+				04A1B9562128014100C67FFD /* Frameworks */,
+				04A1B9572128014100C67FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PTDigitalKeyBoardDemo;
+			productName = PTDigitalKeyBoardDemo;
+			productReference = 04A1B9592128014100C67FFD /* PTDigitalKeyBoardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A1B9512128014100C67FFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Shenzhen LvPai Culture Communication Co., Ltd.";
+				TargetAttributes = {
+					04A1B9582128014100C67FFD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 04A1B9542128014100C67FFD /* Build configuration list for PBXProject "PTDigitalKeyBoardDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A1B9502128014100C67FFD;
+			productRefGroup = 04A1B95A2128014100C67FFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A1B9582128014100C67FFD /* PTDigitalKeyBoardDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A1B9572128014100C67FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A1B9692128014300C67FFD /* LaunchScreen.storyboard in Resources */,
+				04A1B9662128014300C67FFD /* Assets.xcassets in Resources */,
+				04A1B9642128014100C67FFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C86306D4EDBF62E8CCDF171C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PTDigitalKeyBoardDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A1B9552128014100C67FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A1B97E2128021500C67FFD /* PublicListViewModel.m in Sources */,
+				04A1B97D2128021300C67FFD /* PublicDigitalKeyBoardCell.m in Sources */,
+				04A1B97C2128020F00C67FFD /* PublicDigitalKeyBoardView.m in Sources */,
+				04A1B9612128014100C67FFD /* ViewController.m in Sources */,
+				04A1B96C2128014300C67FFD /* main.m in Sources */,
+				04A1B9872128130400C67FFD /* UIImage+ColorImage.m in Sources */,
+				04A1B95E2128014100C67FFD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04A1B9622128014100C67FFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A1B9632128014100C67FFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04A1B9672128014300C67FFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A1B9682128014300C67FFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A1B96D2128014300C67FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04A1B96E2128014300C67FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A1B9702128014300C67FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 539F37920F9C2B200B4E79EF /* Pods-PTDigitalKeyBoardDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FFC452564N;
+				INFOPLIST_FILE = PTDigitalKeyBoardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JLKF.LPY.YUE.PTDigitalKeyBoardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04A1B9712128014300C67FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9EACCCB57FC50DECF9EA2FB /* Pods-PTDigitalKeyBoardDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FFC452564N;
+				INFOPLIST_FILE = PTDigitalKeyBoardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JLKF.LPY.YUE.PTDigitalKeyBoardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A1B9542128014100C67FFD /* Build configuration list for PBXProject "PTDigitalKeyBoardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A1B96D2128014300C67FFD /* Debug */,
+				04A1B96E2128014300C67FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A1B96F2128014300C67FFD /* Build configuration list for PBXNativeTarget "PTDigitalKeyBoardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A1B9702128014300C67FFD /* Debug */,
+				04A1B9712128014300C67FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A1B9512128014100C67FFD /* Project object */;
+}
