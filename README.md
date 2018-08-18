@@ -36,3 +36,5 @@ iOS系统提供了多种键盘，我们可以通过Enum类型设置。但有的�
 ```
 
 [自定义输入法](http://www.cocoachina.com/ios/20140918/9677.html)
+
+[UITextInput协议参考](http://blog.sina.com.cn/s/blog_5ff81ab001011s9m.html)
