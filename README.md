@@ -12,6 +12,8 @@ iOS系统提供了多种键盘，我们可以通过Enum类型设置。但有的�
 
 这里我们通过[UITextInput协议参考](http://blog.sina.com.cn/s/blog_5ff81ab001011s9m.html)，找到对应的协议方法，来对输入框文本做一些简单的更改。
 
+![inputView](Gif/inputView.gif)
+
 ```Objective-C
 //退格
 - (void)event_delete
@@ -47,7 +49,9 @@ iOS系统提供了多种键盘，我们可以通过Enum类型设置。但有的�
 
 这时，评论输入框 A既是第一响应者，又是键盘的`inputAccessoryView`。
 
-```
+![inputAccessoryView](Gif/inputAccessoryView.gif)
+
+```Objective-C
 - (void)add_textField
 {
     self.textField_keyword = [[UITextField alloc]initWithFrame:CGRectMake(0, 0, 0, 50)];
@@ -61,7 +65,7 @@ iOS系统提供了多种键盘，我们可以通过Enum类型设置。但有的�
     [self.view addSubview:self.textField_temp];
     self.textField_temp.inputAccessoryView = self.textField_keyword;
 }
-#pragma mark-texxtField event
+#pragma mark-textField event
 - (void)keyboardWillShow
 {
     [self.textField_keyword becomeFirstResponder];
@@ -85,3 +89,5 @@ iOS系统提供了多种键盘，我们可以通过Enum类型设置。但有的�
 ```
 
 [自定义输入法](http://www.cocoachina.com/ios/20140918/9677.html)
+
+
