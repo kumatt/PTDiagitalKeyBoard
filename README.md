@@ -28,10 +28,7 @@ iOS系统提供了多种键盘，我们可以通过Enum类型设置。但有的�
 {
     UIResponder <UITextInput> *firstResponse = (id)self.nextResponder;
 
-    UITextRange *range = firstResponse.markedTextRange;
-    if (range == nil) {
-        range = firstResponse.selectedTextRange;
-    }
+    UITextRange *range = firstResponse.selectedTextRange;
     if ([firstResponse respondsToSelector:@selector(shouldChangeTextInRange:replacementText:)] && [firstResponse shouldChangeTextInRange:range replacementText:string] == NO) {
         return;
     }
