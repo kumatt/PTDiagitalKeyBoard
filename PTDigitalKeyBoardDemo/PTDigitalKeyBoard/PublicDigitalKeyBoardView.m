@@ -105,10 +105,7 @@
     }
     UIResponder <UITextInput> *firstResponse = (id)self.nextResponder;
 
-    UITextRange *range = firstResponse.markedTextRange;
-    if (range == nil) {
-        range = firstResponse.selectedTextRange;
-    }
+    UITextRange *range = firstResponse.selectedTextRange;
     if ([firstResponse respondsToSelector:@selector(shouldChangeTextInRange:replacementText:)] && [firstResponse shouldChangeTextInRange:range replacementText:string] == NO) {
         return;
     }
